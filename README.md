@@ -1,15 +1,15 @@
 # TimerEggs VIPER
 
 * **Features**:
-  * Search for the necessary books from the MDS catalog audiobooks 
+  * Timer for cooking eggs 
 
 
 ___
 * **Knowledges**:
-
+  * VIPER
   * UIKIT
+  * AVKIT
 
 
 ___
 
-<!--![rfhnbyrf](audioBook-1.gif)-->
