@@ -1,6 +1,7 @@
 # EggsTimer MVVM
 
 * **Features**:
+    * Timer for cooking eggs
 
 
 ___
