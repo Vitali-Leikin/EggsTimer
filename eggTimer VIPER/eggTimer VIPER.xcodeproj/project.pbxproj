@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F84D19242AD560E7000DA1C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D19232AD560E7000DA1C8 /* AppDelegate.swift */; };
+		F84D19262AD560E7000DA1C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D19252AD560E7000DA1C8 /* SceneDelegate.swift */; };
+		F84D19282AD560E7000DA1C8 /* EggsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D19272AD560E7000DA1C8 /* EggsViewController.swift */; };
+		F84D192B2AD560E7000DA1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84D19292AD560E7000DA1C8 /* Main.storyboard */; };
+		F84D192D2AD560E8000DA1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84D192C2AD560E8000DA1C8 /* Assets.xcassets */; };
+		F84D19302AD560E8000DA1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84D192E2AD560E8000DA1C8 /* LaunchScreen.storyboard */; };
+		F84D19382AD5667A000DA1C8 /* EggsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D19372AD5667A000DA1C8 /* EggsPresenter.swift */; };
+		F84D193A2AD56692000DA1C8 /* EggsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D19392AD56692000DA1C8 /* EggsInteractor.swift */; };
+		F84D193C2AD566AA000DA1C8 /* EggsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D193B2AD566AA000DA1C8 /* EggsConfigurator.swift */; };
+		F84D193E2AD57D3D000DA1C8 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84D193D2AD57D3D000DA1C8 /* C.wav */; };
+		F84D19402AD5804B000DA1C8 /* EggModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D193F2AD5804B000DA1C8 /* EggModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F84D19202AD560E7000DA1C8 /* eggTimer VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggTimer VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84D19232AD560E7000DA1C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F84D19252AD560E7000DA1C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F84D19272AD560E7000DA1C8 /* EggsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsViewController.swift; sourceTree = "<group>"; };
+		F84D192A2AD560E7000DA1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F84D192C2AD560E8000DA1C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F84D192F2AD560E8000DA1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F84D19312AD560E8000DA1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84D19372AD5667A000DA1C8 /* EggsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsPresenter.swift; sourceTree = "<group>"; };
+		F84D19392AD56692000DA1C8 /* EggsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsInteractor.swift; sourceTree = "<group>"; };
+		F84D193B2AD566AA000DA1C8 /* EggsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsConfigurator.swift; sourceTree = "<group>"; };
+		F84D193D2AD57D3D000DA1C8 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		F84D193F2AD5804B000DA1C8 /* EggModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F84D191D2AD560E7000DA1C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F84D19172AD560E7000DA1C8 = {
+			isa = PBXGroup;
+			children = (
+				F84D19222AD560E7000DA1C8 /* eggTimer VIPER */,
+				F84D19212AD560E7000DA1C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F84D19212AD560E7000DA1C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84D19202AD560E7000DA1C8 /* eggTimer VIPER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F84D19222AD560E7000DA1C8 /* eggTimer VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				F84D19472AD58160000DA1C8 /* Services */,
+				F84D19412AD58082000DA1C8 /* Eggs */,
+				F84D19462AD58145000DA1C8 /* View */,
+				F84D19432AD580AC000DA1C8 /* ModelEgg */,
+				F84D19442AD580CE000DA1C8 /* Sound */,
+			);
+			path = "eggTimer VIPER";
+			sourceTree = "<group>";
+		};
+		F84D19412AD58082000DA1C8 /* Eggs */ = {
+			isa = PBXGroup;
+			children = (
+				F84D19272AD560E7000DA1C8 /* EggsViewController.swift */,
+				F84D19372AD5667A000DA1C8 /* EggsPresenter.swift */,
+				F84D19392AD56692000DA1C8 /* EggsInteractor.swift */,
+				F84D193B2AD566AA000DA1C8 /* EggsConfigurator.swift */,
+			);
+			path = Eggs;
+			sourceTree = "<group>";
+		};
+		F84D19432AD580AC000DA1C8 /* ModelEgg */ = {
+			isa = PBXGroup;
+			children = (
+				F84D193F2AD5804B000DA1C8 /* EggModel.swift */,
+			);
+			path = ModelEgg;
+			sourceTree = "<group>";
+		};
+		F84D19442AD580CE000DA1C8 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F84D193D2AD57D3D000DA1C8 /* C.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		F84D19462AD58145000DA1C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F84D19292AD560E7000DA1C8 /* Main.storyboard */,
+				F84D192E2AD560E8000DA1C8 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F84D19472AD58160000DA1C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F84D19232AD560E7000DA1C8 /* AppDelegate.swift */,
+				F84D19252AD560E7000DA1C8 /* SceneDelegate.swift */,
+				F84D192C2AD560E8000DA1C8 /* Assets.xcassets */,
+				F84D19312AD560E8000DA1C8 /* Info.plist */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F84D191F2AD560E7000DA1C8 /* eggTimer VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84D19342AD560E8000DA1C8 /* Build configuration list for PBXNativeTarget "eggTimer VIPER" */;
+			buildPhases = (
+				F84D191C2AD560E7000DA1C8 /* Sources */,
+				F84D191D2AD560E7000DA1C8 /* Frameworks */,
+				F84D191E2AD560E7000DA1C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eggTimer VIPER";
+			productName = "eggTimer VIPER";
+			productReference = F84D19202AD560E7000DA1C8 /* eggTimer VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F84D19182AD560E7000DA1C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F84D191F2AD560E7000DA1C8 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F84D191B2AD560E7000DA1C8 /* Build configuration list for PBXProject "eggTimer VIPER" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F84D19172AD560E7000DA1C8;
+			productRefGroup = F84D19212AD560E7000DA1C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F84D191F2AD560E7000DA1C8 /* eggTimer VIPER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F84D191E2AD560E7000DA1C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84D193E2AD57D3D000DA1C8 /* C.wav in Resources */,
+				F84D19302AD560E8000DA1C8 /* LaunchScreen.storyboard in Resources */,
+				F84D192D2AD560E8000DA1C8 /* Assets.xcassets in Resources */,
+				F84D192B2AD560E7000DA1C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F84D191C2AD560E7000DA1C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84D193C2AD566AA000DA1C8 /* EggsConfigurator.swift in Sources */,
+				F84D19382AD5667A000DA1C8 /* EggsPresenter.swift in Sources */,
+				F84D19282AD560E7000DA1C8 /* EggsViewController.swift in Sources */,
+				F84D19402AD5804B000DA1C8 /* EggModel.swift in Sources */,
+				F84D19242AD560E7000DA1C8 /* AppDelegate.swift in Sources */,
+				F84D193A2AD56692000DA1C8 /* EggsInteractor.swift in Sources */,
+				F84D19262AD560E7000DA1C8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F84D19292AD560E7000DA1C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84D192A2AD560E7000DA1C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F84D192E2AD560E8000DA1C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84D192F2AD560E8000DA1C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F84D19322AD560E8000DA1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F84D19332AD560E8000DA1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F84D19352AD560E8000DA1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89W56TC22L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "eggTimer VIPER/Services/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VitiliLeikin.eggTimer-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F84D19362AD560E8000DA1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89W56TC22L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "eggTimer VIPER/Services/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VitiliLeikin.eggTimer-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F84D191B2AD560E7000DA1C8 /* Build configuration list for PBXProject "eggTimer VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84D19322AD560E8000DA1C8 /* Debug */,
+				F84D19332AD560E8000DA1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84D19342AD560E8000DA1C8 /* Build configuration list for PBXNativeTarget "eggTimer VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84D19352AD560E8000DA1C8 /* Debug */,
+				F84D19362AD560E8000DA1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F84D19182AD560E7000DA1C8 /* Project object */;
+}
