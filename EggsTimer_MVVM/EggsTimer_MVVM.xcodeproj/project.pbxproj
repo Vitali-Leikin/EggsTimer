@@ -10,9 +10,12 @@
 		F821DEA72AD6B983002AAC53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821DEA62AD6B983002AAC53 /* AppDelegate.swift */; };
 		F821DEA92AD6B983002AAC53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821DEA82AD6B983002AAC53 /* SceneDelegate.swift */; };
 		F821DEAB2AD6B983002AAC53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821DEAA2AD6B983002AAC53 /* ViewController.swift */; };
-		F821DEAE2AD6B983002AAC53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F821DEAC2AD6B983002AAC53 /* Main.storyboard */; };
 		F821DEB02AD6B984002AAC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F821DEAF2AD6B984002AAC53 /* Assets.xcassets */; };
 		F821DEB32AD6B984002AAC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F821DEB12AD6B984002AAC53 /* LaunchScreen.storyboard */; };
+		F8A68DD82AD6BCC700A98AA9 /* EggTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A68DD72AD6BCC700A98AA9 /* EggTime.swift */; };
+		F8A68DDA2AD6BCCE00A98AA9 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A68DD92AD6BCCE00A98AA9 /* TimerViewModel.swift */; };
+		F8A68DDC2AD6BD8C00A98AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A68DDB2AD6BD8C00A98AA9 /* Main.storyboard */; };
+		F8A68DE42AD6C1C100A98AA9 /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A68DE02AD6C10200A98AA9 /* music.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		F821DEA62AD6B983002AAC53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F821DEA82AD6B983002AAC53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F821DEAA2AD6B983002AAC53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F821DEAD2AD6B983002AAC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F821DEAF2AD6B984002AAC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F821DEB22AD6B984002AAC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F821DEB42AD6B984002AAC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A68DD72AD6BCC700A98AA9 /* EggTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggTime.swift; sourceTree = "<group>"; };
+		F8A68DD92AD6BCCE00A98AA9 /* TimerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		F8A68DDB2AD6BD8C00A98AA9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F8A68DE02AD6C10200A98AA9 /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		F821DEA52AD6B983002AAC53 /* EggsTimer_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				F8A68DE82AD6C25100A98AA9 /* Controller */,
+				F8A68DE72AD6C21E00A98AA9 /* Model */,
+				F8A68DE62AD6C20900A98AA9 /* View */,
+				F8A68DE52AD6C1E800A98AA9 /* Sound */,
 				F821DEA62AD6B983002AAC53 /* AppDelegate.swift */,
 				F821DEA82AD6B983002AAC53 /* SceneDelegate.swift */,
-				F821DEAA2AD6B983002AAC53 /* ViewController.swift */,
-				F821DEAC2AD6B983002AAC53 /* Main.storyboard */,
 				F821DEAF2AD6B984002AAC53 /* Assets.xcassets */,
-				F821DEB12AD6B984002AAC53 /* LaunchScreen.storyboard */,
 				F821DEB42AD6B984002AAC53 /* Info.plist */,
 			);
 			path = EggsTimer_MVVM;
+			sourceTree = "<group>";
+		};
+		F8A68DE52AD6C1E800A98AA9 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F8A68DE02AD6C10200A98AA9 /* music.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		F8A68DE62AD6C20900A98AA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F821DEB12AD6B984002AAC53 /* LaunchScreen.storyboard */,
+				F8A68DDB2AD6BD8C00A98AA9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8A68DE72AD6C21E00A98AA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8A68DD92AD6BCCE00A98AA9 /* TimerViewModel.swift */,
+				F8A68DD72AD6BCC700A98AA9 /* EggTime.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8A68DE82AD6C25100A98AA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F821DEAA2AD6B983002AAC53 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F821DEB32AD6B984002AAC53 /* LaunchScreen.storyboard in Resources */,
+				F8A68DDC2AD6BD8C00A98AA9 /* Main.storyboard in Resources */,
+				F8A68DE42AD6C1C100A98AA9 /* music.wav in Resources */,
 				F821DEB02AD6B984002AAC53 /* Assets.xcassets in Resources */,
-				F821DEAE2AD6B983002AAC53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A68DDA2AD6BCCE00A98AA9 /* TimerViewModel.swift in Sources */,
 				F821DEAB2AD6B983002AAC53 /* ViewController.swift in Sources */,
 				F821DEA72AD6B983002AAC53 /* AppDelegate.swift in Sources */,
+				F8A68DD82AD6BCC700A98AA9 /* EggTime.swift in Sources */,
 				F821DEA92AD6B983002AAC53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +191,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F821DEAC2AD6B983002AAC53 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F821DEAD2AD6B983002AAC53 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F821DEB12AD6B984002AAC53 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
